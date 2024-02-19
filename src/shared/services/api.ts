@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { apiAuth, apiToken } from '../../shared'
 
-export const baseURL = 'https://emti-massape-api.emsolucoestecnologicas.com.br/'
+export const baseURL = 'https://emti-massape-api.vercel.app/'
 
 export const apiUsingNow = axios.create({
   baseURL,

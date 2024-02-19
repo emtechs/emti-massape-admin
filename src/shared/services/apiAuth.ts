@@ -35,7 +35,7 @@ const verifyToken = async (token: string): Promise<string> => {
 const recovery = async (data: iRecoveryRequest): Promise<void> => {
   await apiUsingNow.post('password', {
     ...data,
-    base_url: 'https://emtidigital-massape-admin.emsolucoestecnologicas.com.br',
+    base_url: 'https://emti-massape-admin.vercel.app',
   })
 }
 
